@@ -3,17 +3,21 @@ const template = document.createElement("template");
 template.innerHTML = `
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+<link href="/style/style.css">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 10px;">
+    <a class="navbar-brand" href="/index.html">
+        <img src="/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Victoria's brand
+    </a>
+        <button id="toggle-hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="/htmlPages/home.html">Home</a>
-                <a class="nav-item nav-link" href="/htmlPages/picturePage.html">Pictures</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="/htmlPages/pictures.html">Pictures</a>
+                <a class="nav-item nav-link" href="#">Projects</a>
                 <a class="nav-item nav-link" href="#">Reviews</a>
             </div>
         </div>
