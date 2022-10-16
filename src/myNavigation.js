@@ -17,8 +17,8 @@ template.innerHTML = `
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="/htmlPages/home.html">Home</a>
                 <a class="nav-item nav-link" href="/htmlPages/pictures.html">Pictures</a>
-                <a class="nav-item nav-link" href="#">Projects</a>
-                <a class="nav-item nav-link" href="#">Reviews</a>
+                <a class="nav-item nav-link" href="/htmlPages/projects.html">Projects</a>
+                <a class="nav-item nav-link" href="/htmlPages/reviews.html">Reviews</a>
             </div>
         </div>
     </nav>
